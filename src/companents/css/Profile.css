@@ -1,0 +1,23 @@
+.siparis-div
+{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   border: 2px solid blue;
+   border-radius: 10px;
+   padding: 10px;
+}
+.siparis-icerik
+{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+
+}
+.acıklama
+{
+    margin-top: 50px;
+}
+p{
+    display: inline;
+}

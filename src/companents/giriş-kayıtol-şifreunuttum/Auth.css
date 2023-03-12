@@ -1,0 +1,56 @@
+.kapsayıcı
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kutu
+{
+    
+    width:500px;
+    position: relative;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+.input
+{
+    margin-top:10px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid brown;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+}
+.forgot
+{
+    position: relative;
+    top:5px;
+    text-decoration: none;
+    color: rgb(45, 45, 185);
+}
+.button 
+{ 
+    
+    margin-top:10px ;
+    width: 256px ;
+    height: 30px ;
+    border-radius: 10px ;
+    border: none ;
+    background-color: rgb(192, 244, 244) ;
+    cursor: pointer ;
+}
+.yeni
+{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    font-size: 14px;
+    position: relative;
+    
+}
