@@ -4,7 +4,7 @@
 ### Ürün Detay Sayfası
 ![alt text](resim-2.png) <br>
 ### Sepet Sayfası
-![alt text](resim-3.png) <br>
+![alt text](resim-3 .png) <br>
 ### Sepet Sayfası
 ![alt text](resim-4.png) <br>
 ### Hesabım Sayfası
