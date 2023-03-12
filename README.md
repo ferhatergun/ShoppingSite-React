@@ -1,9 +1,13 @@
-##Proje Görüntüleri
+## Proje Görüntüleri
 ### Ana Sayfa
 ![alt text](resim-1.png) <br>
+### Ürün Detay Sayfası
 ![alt text](resim-2.png) <br>
-![alt text](ressim-3.png) <br>
+### Sepet Sayfası
+![alt text](resim-3.png) <br>
+### Sepet Sayfası
 ![alt text](resim-4.png) <br>
+### Hesabım Sayfası
 ![alt text](resim-5.png)
 
 
