@@ -1,3 +1,14 @@
+##Proje Görüntüleri
+### Ana Sayfa
+![alt text](resim-1.png) <br>
+![alt text](resim-2.png) <br>
+![alt text](ressim-3.png) <br>
+![alt text](resim-4.png) <br>
+![alt text](resim-5.png)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
