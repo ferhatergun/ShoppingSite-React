@@ -12,7 +12,7 @@ function OnlyAdmin() {
   }
   if (!user) {
     return <Navigate to="/login" />;
-  } else if (user.email !== "eferhat718@gmail.com") {
+  } else if (user.email !== "admin@gmail.com") {
     return <Navigate to="/" />;
   }
   return (
