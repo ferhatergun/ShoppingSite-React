@@ -1,3 +1,4 @@
+sitenin veritabanı olarak firebase altyapısı kullanılmıştır !!
 # Site Özellikleri
 #### Ürünleri İnceleme
 #### Arama Barı İle Ürün Arama
