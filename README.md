@@ -1,3 +1,15 @@
+## Site Özellikleri
+# Ürünleri İnceleme
+# Arama Barı İle Ürün Arama
+# Ürünleri Sepete Atma
+# Sepetteki Ürünün Adetini Ayarlama Silme
+# Kulanıcı Giriş Kayıt Ol Authentication
+# Hesabım Sayfasında Siparişleri Görüntüleme
+# Admin Sayfası 
+# Yeni Gelen Siparişleri Görme
+# Siparişi İptal Etme ve Kargolama
+# Yeni Ürün Yükleme
+
 ## Proje Görüntüleri
 ### Ana Sayfa
 ![alt text](resim-1.png) <br>
