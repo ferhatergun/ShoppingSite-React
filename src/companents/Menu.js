@@ -1,4 +1,4 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css';
 import { auth } from './../firebase/firebase';
@@ -59,7 +59,7 @@ function Menu({sepet,setsearch}) { // sepet. lenght işlemi yapmak lazım
         user ? 
       <>
         {
-          user.email === "eferhat718@gmail.com" ? 
+          user.email === "admin@gmail.com" ? 
           <li className="nav-item ">
           <a className='nav-link' href='/yeni-siparisler'>Admin Paneli</a>
           </li> :

@@ -29,7 +29,7 @@ function Profile({siparişler , user,isLoading}) {
           <h3 style={{textAlign:'center'}}>Siparişlerim</h3>
         </div>
         
-        {siparişler.map((urunler,i)=>(  
+        {siparişler?.map((urunler,i)=>(  
           urunler.email === user.email ?
           <div key={i} style={{backgroundColor:"#fbfbfb"}}> {/* style den özellikler ekle güzel yap */}
             <p> {++a} .sipariş </p>
