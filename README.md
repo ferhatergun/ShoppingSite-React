@@ -21,9 +21,9 @@ sitenin veritabanı olarak firebase altyapısı kullanılmıştır !!
 ### Hesabım Sayfası
 ![alt text](resim-5.png)
 ## Admin Sayfası
-###Ana Sayfa
+### Ana Sayfa
 ![alt text](admin1.png) <br>
-###Ürün Ekleme Sayfası
+### Ürün Ekleme Sayfası
 ![alt text](admin2.png) <br>
 
 
