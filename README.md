@@ -20,6 +20,11 @@ sitenin veritabanı olarak firebase altyapısı kullanılmıştır !!
 ![alt text](resim-4.png) <br>
 ### Hesabım Sayfası
 ![alt text](resim-5.png)
+## Admin Sayfası
+###Ana Sayfa
+![alt text](admin1.png) <br>
+###Ürün Ekleme Sayfası
+![alt text](admin2.png) <br>
 
 
 
