@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { addDoc} from 'firebase/firestore';
 import alertify from 'alertifyjs';
+import  TextField  from '@mui/material/TextField';
 
 function Yeniürünyükle({urunbilgilerRef}) {
   const [title, setTitle] = useState('');
@@ -30,34 +31,31 @@ function Yeniürünyükle({urunbilgilerRef}) {
     <div className='yeniurun'>
       <h3 className='mt-5'>Yeni Ürün Yükle</h3>
       <form onSubmit={send}>
-        <table border={0} className='w-50 mt-5'>
+        <table border={0} className='mt-5'>
           <tr>
-            <td>Ürün İsmi</td>
             <td>
-              <input required value={title} onChange={(e) => setTitle(e.target.value)} />
+              <TextField id="outlined-basic" label="Ürün İsmi" variant="outlined" value={title}  
+              onChange={(e) => setTitle(e.target.value)} sx={{width:'300px'}}/>
             </td>
           </tr>
           <tr>
-            <td>Ürün Açıklaması</td>
             <td>
-              <textarea required
-                value={description}
-                cols={30}
-                rows={3}
-                onChange={(e) => setDescription(e.target.value)}
-              ></textarea>
+            <TextField id="outlined-basic" label="Ürün Açıklaması" variant="outlined" 
+            multiline sx={{width:'300px'}}
+            rows={3} value={description} onChange={(e) => setDescription(e.target.value)}
+            />
             </td>
           </tr>
           <tr>
-            <td>Ürün Fiyatı</td>
             <td>
-              <input type='number' required value={price} onChange={(e) => setPrice(e.target.value)} />
+              <TextField id="outlined-basic" label="Ürün Fiyatı" variant="outlined" value={price} 
+              onChange={(e) => setPrice(e.target.value)} sx={{width:'300px'}}/>
             </td>
           </tr>
           <tr>
-            <td>Ürün Resim Linki</td>
             <td>
-              <input required value={image} onChange={(e) => setImage(e.target.value)} />
+              <TextField id="outlined-basic" label="Ürün Resim Linki" variant="outlined" value={image} 
+              onChange={(e) => setImage(e.target.value)}  sx={{width:'300px'}}/>
             </td>
           </tr>
         </table>
